@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <title>Eco Explorers</title>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#events">Events</a></li>
+        <li id="navbar-logo">
+          <img src="./resources/logo/Explorers-Club-Logo.webp" alt="logo" />
+        </li>
+        <li><a href="#membership">Membership</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="hero-container">
+      <h2>Explore. Conserve. Inspire.</h2>
+      <button>Join Us!</button>
+    </div>
+  </section>
+
+  <section id="about-us">
+    <div class="about-container">
+      <h2>About us...</h2>
+      <p>Eco Explorers Club is dedicated to promoting environmental awareness and conservation. Our members engage in
+        various outdoor activities such as hiking, bird-watching, and community clean-ups. We aim to inspire a love for
+        nature and encourage sustainable practices.</p>
+    </div>
+  </section>
+
+  <section id="events">
+    <div class="events-title">
+      <h2>Events</h2>
+    </div>
+
+    <div class="events-container">
+      <div class="event">
+        <h3>Nature Hike in Blue Ridge Mountains</h3>
+        <p class="date">June 15, 2024</p>
+        <p class="description">Join us for a guided hike through the beautiful Blue Ridge Mountains. Enjoy scenic views
+          and learn about local flora and fauna.</p>
+        <button>Register</button>
+      </div>
+
+      <div class="event">
+        <h3>Beach Clean-Up Day</h3>
+        <p class="date">July 20, 2024</p>
+        <p class="description">Help us keep our beaches clean and safe. Volunteers will gather at Sandy Beach to collect litter and debris.</p>
+        <button>Register</button>
+      </div>
+
+      <div class="event">
+        <h3>Bird Watching Workshop</h3>
+        <p class="date">August 10, 2024</p>
+        <p class="description">A workshop for bird enthusiasts. Learn about bird identification and behavior with our expert guides at Greenfield Park.</p>
+        <button>Register</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="membership">
+    <div class="grid">
+      <div class="title">
+        <h2>Become a Member</h2>
+      </div>
+      <div id="benefits">
+        <h2>Benefits</h2>
+      </div>
+      <div class="benefits">
+        <h3>Access to exclusive events</h3>
+      </div>
+      <div class="benefits">
+        <h3>Monthly newsletter with tips on sustainable living</h3>
+      </div>
+      <div class="benefits">
+        <h3>Volunteer opportunities to give back to the community</h3>
+      </div>
+      <div id="plans">
+        <h2>Membership Plans</h2>
+      </div>
+      <div class="plans">
+        <h3>Basic</h3>
+        <h4>Pice: $20 / year</h4>
+        <h5>Features:</h5>
+        <p>Access to monthly events, newsletter subscription</p>
+      </div>
+      <div class="plans">
+        <h3>Premium</h3>
+        <h4>Pice: $50 / year</h4>
+        <h5>Features:</h5>
+        <p>Access to all events, newsletter subscription, exclusive member-only workshops, and discounts on merchandise
+        </p>
+      </div>
+    </div>
+    <div class="button"><button>Sign Up Now</button></div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div id="gallery-container">
+      <div class="img-container"><img src="./resources/gallery/img-1.jpg" alt="img-1"></div>
+      <div class="img-container"><img src="./resources/gallery/img-2.jpg" alt="img-2"></div>
+      <div class="img-container"><img src="./resources/gallery/img-3.jpg" alt="img-3"></div>
+      <div class="img-container"><img src="./resources/gallery/img-4.jpg" alt="img-4"></div>
+      <div class="img-container"><img src="./resources/gallery/img-5.jpg" alt="img-5"></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+  <footer>
+    <div class="footer-container">
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about-us">About Us</a>
+            <a href="#events">Events</a>
+            <a href="#membership">Membership</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+            <a href="https://facebook.com" target="_blank"><img src="./resources/footer logos/facebook-icon.png" alt="Facebook"></a>
+            <a href="https://instagram.com" target="_blank"><img src="./resources/footer logos/instagram-icon.webp" alt="Instagram"></a>
+            <a href="https://x.com" target="_blank"><img src="./resources/footer logos/x-logo.webp" alt="x"></a>
+        </div>
+        <div class="footer-info">
+            <p>&copy; 2024 Eco Explorers Club. All rights reserved.</p>
+            <a href="#privacy-policy">Privacy Policy</a> | 
+            <a href="#terms-of-service">Terms of Service</a>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
